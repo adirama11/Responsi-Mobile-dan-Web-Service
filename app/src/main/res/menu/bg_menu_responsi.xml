@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragmentHome"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/fragmentPromo"
+        android:title="Promo"
+        android:icon="@drawable/ic_promo"/>
+    <item
+        android:id="@+id/fragmentMember"
+        android:title="My Member"
+        android:icon="@drawable/ic_member"/>
+    <item
+        android:id="@+id/fragmentSetting"
+        android:title="Pengaturan"
+        android:icon="@drawable/ic_settings"/>
+</menu>

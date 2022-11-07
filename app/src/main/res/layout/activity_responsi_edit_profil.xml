@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResponsiEditProfilActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/panah"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Edit Profie"/>
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/photo_profil"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/green_primary"
+        android:text="Ganti foto"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:text="Nama"/>
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Masukkan nama"
+        android:background="@drawable/bg_rounded_set"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:paddingEnd="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:text="Nomor Ponsel"/>
+    <EditText
+        android:id="@+id/nohp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Masukkan nomor ponsel"
+        android:background="@drawable/bg_rounded_set"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:paddingEnd="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:text="Alamat"/>
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Masukkan alamat"
+        android:background="@drawable/bg_rounded_set"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:paddingEnd="10dp"/>
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Simpan"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_rounded_btn"/>
+
+</LinearLayout>
